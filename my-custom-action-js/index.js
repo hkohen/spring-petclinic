@@ -4,7 +4,7 @@ try {
     // Lire les entrées fournies par l'utilisateur
     const username = core.getInput('name');
 
-        const message = Hello + `${username}!`;
+        const message = `Hello  ${username}!`;
 
           // Afficher le message dans les logs
     console.log(message);
