@@ -1,0 +1,9 @@
+name: "hello action"
+description: "simple action to greet user"
+inputs:
+  name:
+    description: "name of the user"
+    required: true
+runs:
+  using: "node16"
+  main: "index.js"
